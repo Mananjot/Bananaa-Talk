@@ -68,7 +68,7 @@ span {
   width: 100%;
   min-height: 10rem;
   border: 3px solid var(--secondary-color);
-  margin-bottom: 10px;
+  padding:2px;
 }
 
 footer a {
@@ -77,13 +77,14 @@ footer a {
 }
 
 footer {
+  box-sizing: border-box;
   padding: 1rem;
 }
 
 footer ul {
-    padding-inline-start: 0px;
-  }
-  
+  padding-inline-start: 0px;
+}
+
 .list-inline li {
   display: inline;
 }
